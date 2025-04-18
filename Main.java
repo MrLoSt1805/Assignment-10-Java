@@ -10,5 +10,9 @@ public class Main {
 	Thread t1 = new Thread(new PrintNumbers()); 
 	Thread t2 = new Thread(new PrintAlphabets()); 
 
+	// Starting threads 
+	t1.start(); 
+	t2.start(); 
+
 	
 }
